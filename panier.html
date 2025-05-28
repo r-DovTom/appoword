@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Panier</title>
+  <link rel="stylesheet" href="style.css">
   <script>
     function redirigerWhatsApp() {
       const montant = document.getElementById("total").innerText;
@@ -13,16 +14,19 @@
   </script>
 </head>
 <body>
-  <h1>Votre Panier</h1>
-  <p>Produit 1 : 7 500 FCFA</p>
-  <p>Produit 2 : 10 000 FCFA</p>
-  <h3>Total : <span id="total">17 500 FCFA</span></h3>
+  <header><h1>Votre Panier</h1></header>
+  <main>
+    <p>Produit 1 : 7 500 FCFA</p>
+    <p>Produit 2 : 10 000 FCFA</p>
+    <h3>Total : <span id="total">17 500 FCFA</span></h3>
 
-  <button onclick="redirigerWhatsApp()">Valider par WhatsApp</button>
+    <button onclick="redirigerWhatsApp()">Valider par WhatsApp</button>
 
-  <p><strong>Paiement Flooz :</strong> 91 00 00 00</p>
-  <p><strong>Paiement TMoney :</strong> 90 00 00 00</p>
+    <p><strong>Paiement Flooz :</strong> 91 00 00 00</p>
+    <p><strong>Paiement TMoney :</strong> 90 00 00 00</p>
 
-  <a href="confirmation.html">Confirmer</a>
+    <p><a href="confirmation.html">Confirmer</a></p>
+  </main>
+  <footer>&copy; 2025 Appo Word</footer>
 </body>
 </html>
